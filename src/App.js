@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import CardInfo from './components/CardInfo/cardInfo';
 import Navbar from './components/Navbar/navbar';
-import Button_molecule from './components/ButtonArray/molecule-Button';
+import Button_molecule from './components/ButtonArray/Button-molecule';
 
 function App() {
   const planetas = ["Mercurio", "Venus", "Tierra"]

@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import ButtonAtom from './Button/atom-Button';
+import ButtonAtom from './Button/Button-atom';
 
-export default function ButtonArray_col() {
+export default function Button_molecule() {
     const [isActive1, setIsActive1] = useState(false);
     const [isActive2, setIsActive2] = useState(false);
     const [isActive3, setIsActive3] = useState(false);
