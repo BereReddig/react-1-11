@@ -1,13 +1,13 @@
-import './Button.css';
+import './mobile-Button.css';
+import './desktop-Button.css';
 
-export default function ButtonPruebita (props){
-    const { id, isActive, href, number, content, clicked } = props;
+export default function ButtonAtom (props){
+    const { isActive, href, number, content, clicked } = props;
 
     return (
         <button 
-        type="button" 
-        id="info-button"
-        
+            type="button" 
+            className="info-button"
         >
             <a
                 className={isActive ? 'nav-btn btn-active' : 'nav-btn'}
